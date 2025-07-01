@@ -44,12 +44,12 @@ Resolved by keeping both changes in header section.
 
 ## Checklist Verification
 
-- [x] Applied branch protection rules
-- [x] Defined 5 milestones with issues
-- [x] Project board used throughout
-- [x] 8+ structured commits with varied types
-- [x] Feature branches for all work
-- [x] PRs with descriptions and linked issues
-- [x] Demonstrated conflict resolution
-- [x] Deployed to GitHub Pages
-- [x] Completed Assignment.md
+- [✅] Applied branch protection rules
+- [✅] Defined 5 milestones with issues
+- [✅] Project board used throughout
+- [✅] 8+ structured commits with varied types
+- [✅] Feature branches for all work
+- [✅] PRs with descriptions and linked issues
+- [✅] Demonstrated conflict resolution
+- [✅] Deployed to GitHub Pages
+- [✅] Completed Assignment.md

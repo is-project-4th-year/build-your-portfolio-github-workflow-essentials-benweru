@@ -1,68 +1,55 @@
-# Personal Portfolio Documentation
+# Personal Portfolio Project Submission
 
-## 1. Student Details
+## Project Management Evidence
 
-- **Full Name**:
-- **Admission Number**:
-- **GitHub Username**:
-- **Email**:
+![Project Board](src/images/project-board.png)
+![Project Board](src/images//milestones.png)
+![Project Board](src/images/github_pages.png)
+_GitHub project board showing progress_
 
-## 2. Deployed Portfolio Link
+## Branching Strategy
 
-- **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+Used feature branches following `feature/<issue-number>-description` pattern:
 
-## 3. Learnings from the Git Crash Program
-
-Write about **4 things** you expected to learn during the Git crash course (yes, we all came in with some big hopes 😅).
-For each one, mention:
-
-What you thought it would be like **(Expectation 👀)**
-
-What you actually learned **(Reality 😅)**
-
-And how it helped with your personal portfolio project 💻
-
-make it honest—and if it surprised you, even better!
-
-Example format:
-
-**🧠 What I Thought I'd Learn vs What I Actually Learned**
-**1. Concept: Branching**
-
-`Expectation 👀` : I thought branching was just for developers working on big apps—nothing I’d need for a small project.
-
-`Reality 😅`: Turns out even solo devs need branches! It helped me avoid breaking my main code while testing new designs.
-
-`Impact 💡`: I created a feature branch for my "About Me" section and merged it smoothly into the main branch after testing. Super useful!
-
-## 4. Screenshots of Key GitHub Features
-
-Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
-
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
+```bash
+git checkout -b feature/1-setup-scaffolding
 ```
 
-### A. Milestones and Issues
+## Commit Message Examples
 
-- Screenshot showing your milestone(s) and the issues linked to it.
+```
+feat(navbar): add responsive navigation
+docs: update README with installation instructions
+fix(contact): repair form validation
+```
 
-### B. Project Board
+## Pull Request Evidence
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+![Pull Request](src/images/pr-example.png)
+_Caption: PR showing review and linked issues_
 
-### C. Branching
+## Conflict Resolution
 
-- Screenshot showing your branch list with meaningful naming.
+Simulated conflict between:
 
-### D. Pull Requests
+- feature/2-navbar (added navigation)
+- feature/3-hero-section (updated header text)
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+Resolved by keeping both changes in header section.
 
-### E. Merge Conflict Resolution
+## Deployment
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+- **GitHub Pages URL**: https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-benweru/
+- **Additional Deployment**: N/A
+
+## Checklist Verification
+
+- [✅] Applied branch protection rules
+- [✅] Defined 5 milestones with issues
+- [✅] Project board used throughout
+- [✅] 8+ structured commits with varied types
+- [✅] Feature branches for all work
+- [✅] PRs with descriptions and linked issues
+- [✅] Demonstrated conflict resolution
+- [✅] Deployed to GitHub Pages
+- [✅] Completed Assignment.md
